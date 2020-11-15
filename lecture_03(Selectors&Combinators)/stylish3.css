@@ -1,0 +1,49 @@
+/* selectors */
+
+/* universal selector */
+* {
+    font-style: italic;
+}
+
+/* element selector */
+h1 {
+    color:white;
+    background-color: purple;
+}
+p {
+    font-size: 20px;
+}
+
+/* class selector */
+.para {
+    color: red;
+}
+/* id */
+#unique {
+    background-color: lightgreen;
+}
+
+/* attribute selector */
+a[href] {
+    text-decoration: none;
+}
+p[class] {
+    border: 1px solid;
+}
+
+/* combinators */
+
+/* sibling selector */
+h1+p {
+    font-weight: bold;
+}
+
+/* child selector */
+div>p {
+    color: blue;
+}
+
+/* descendant selector */
+ul a{
+    color:purple;
+}

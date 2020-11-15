@@ -1,0 +1,20 @@
+*{
+    background-color: purple;
+}
+h1 {
+    color: white;
+    padding-left: 500px;
+}
+div {
+    color: white;  
+}
+.box {
+    background-color: lightgreen;
+    width: 150px;
+    height: 100px;
+    /* overflow 
+    Overflow: visible;
+    Overflow: hidden;
+    Overflow: auto; */
+    Overflow: scroll;
+}
